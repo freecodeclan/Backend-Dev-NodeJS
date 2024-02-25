@@ -1,6 +1,7 @@
 const express = require("express"); //-- Creating instance of express
 const app = express();
 
+//-- Specifically parse JSON data and add it to the request.body object
 const bodyParser = require("body-parser");
 app.use(bodyParser.json());
 
