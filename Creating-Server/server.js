@@ -1,5 +1,3 @@
-"use strict";
-
 const express = require("express"); //-- Creating instance of express
 const app = express();
 
@@ -12,7 +10,7 @@ app.listen(3000, () => {
 });
 
 //-- Creating route
-app.get("/ex", (req, res) => {
+app.get("/e", (req, res) => {
   res.send("Hello I am example of route");
 });
 
